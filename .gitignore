@@ -1,0 +1,6 @@
+.idea/*
+.settings/*
+.project
+.buildpath
+application/logs/*
+
