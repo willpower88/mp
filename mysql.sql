@@ -18,9 +18,9 @@
 --
 -- Table structure for table `mp_admin_user`
 --
-set names utf8;
-create database mp;
-use mp;
+SET names utf8;
+CREATE database IF NOT EXISTS mp;
+USE mp;
 
 DROP TABLE IF EXISTS `mp_admin_user`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
@@ -48,7 +48,7 @@ CREATE TABLE `mp_admin_user` (
 
 LOCK TABLES `mp_admin_user` WRITE;
 /*!40000 ALTER TABLE `mp_admin_user` DISABLE KEYS */;
-INSERT INTO `mp_admin_user` VALUES (1,'admin','c3284d0f94606de1fd2af172aba15bf3','toryzen','admin@admin.com',1,1,'','2016-12-05 15:24:22','127.0.0.1'),(2,'auditor','1f32aa4c9a1d2ea010adcf2348166a04','auditor','',3,1,'','2016-12-05 10:17:26',NULL);
+INSERT INTO `mp_admin_user` VALUES (1,'admin','14e1b600b1fd579f47433b88e8d85291','willpower88','admin@admin.com',1,1,'','2016-12-05 15:24:22','127.0.0.1'),(2,'auditor','1f32aa4c9a1d2ea010adcf2348166a04','auditor','',3,1,'','2016-12-05 10:17:26',NULL);
 /*!40000 ALTER TABLE `mp_admin_user` ENABLE KEYS */;
 UNLOCK TABLES;
 
