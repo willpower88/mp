@@ -1,6 +1,6 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
- * QIZHUAN中用到的公共函数
+ * mp中用到的公共函数
  * @author		qiaoyi
  * @link		http://www.powersoft.com
  */
