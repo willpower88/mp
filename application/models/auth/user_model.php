@@ -3,12 +3,12 @@
 if (! defined ( 'BASEPATH' ))
 	exit ( 'No direct script access allowed' );
 class User_model extends CI_Model {
-	private $table_name = 'qizhuan_user';
+	private $table_name = 'mp_user';
 	public function __construct() {
 		$this->load->database ();
 	}
 	public function get_users() {
-		$query = $this->db->get ( 'qizhuan_user' );
+		$query = $this->db->get ( 'mp_user' );
 		return $query->row_array ();
 	}
 	public function get_user_by_username($username) {

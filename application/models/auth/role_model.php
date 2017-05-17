@@ -2,7 +2,7 @@
 
 class Role_model extends CI_Model{
 	
-	private $table = 'qizhuan_role';
+	private $table = 'mp_role';
 	
 	public function __construct() {
 		$this->load->database();

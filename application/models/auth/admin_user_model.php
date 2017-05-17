@@ -3,8 +3,8 @@
 if (! defined ( 'BASEPATH' ))
 	exit ( 'No direct script access allowed' );
 class Admin_user_model extends CI_Model {
-	private $table_admin_user = 'qizhuan_admin_user';
-	private $table_role = 'qizhuan_role';
+	private $table_admin_user = 'mp_admin_user';
+	private $table_role = 'mp_role';
 	public function __construct() {
 		$this->load->database ();
 		$this->load->library('log_service');

@@ -170,7 +170,7 @@
 				$("#roleTable").hide();
 				$.ajax({
 					type: 'GET',
-					url: "http://qizhuan.powersoft.com/auth/manage/menu",
+					url: "http://mp.powersoft.com/auth/manage/menu",
 					async: true,
 					success: function(data) {
 						//alert(data.data.title);
@@ -199,7 +199,7 @@
                 $("#tbRole tbody").html('');
                 $.ajax({
                     type: "GET",
-                    url: "http://qizhuan.powersoft.com/auth/role/role",
+                    url: "http://mp.powersoft.com/auth/role/role",
                     async: true,
                     dataType: "json",
                     success: function(data) {
@@ -232,7 +232,7 @@
                 $(".breadcrumb").append("<li class='active'>账号管理</li>");
                 $.ajax({
                     type: "GET",
-                    url: "http://qizhuan.powersoft.com/auth/adminUser/adminUsers",
+                    url: "http://mp.powersoft.com/auth/adminUser/adminUsers",
                     async: true,
                     dataType: "json",
                     success: function(data) {
@@ -340,7 +340,7 @@
 				console.log($('#roleStatus option:selected').val());
 				$.ajax({
 					type: 'GET',
-					url: 'http://qizhuan.powersoft.com/auth/role/roleModify',
+					url: 'http://mp.powersoft.com/auth/role/roleModify',
 					data: 'roleId=' + roleId + '&rolename=' + rolename + '&roleStatus=' + roleStatus,
 					dataType: 'json',
 					contentType: 'application/x-www-form-urlencode;charset=utf-8',
@@ -406,7 +406,7 @@
 					});
 					$.ajax({
 						type: 'GET',
-						url: 'http://qizhuan.powersoft.com/auth/role/roleAdd',
+						url: 'http://mp.powersoft.com/auth/role/roleAdd',
 						data: 'rolename=' + rolename + '&roleStatus=' + roleStatus,
 						dataType: 'json',
 						contentType: 'application/x-www-form-urlencode;charset=utf-8',
@@ -424,7 +424,7 @@
                    //执行删除
                    $.ajax({
                        type: 'GET',
-                       url: 'http://qizhuan.powersoft.com/auth/role/roleDelete',
+                       url: 'http://mp.powersoft.com/auth/role/roleDelete',
                        data: 'roleId=' + id,
                        dataType: 'json',
                        contentType: 'application/x-www-form-urlencode;charset=utf-8',

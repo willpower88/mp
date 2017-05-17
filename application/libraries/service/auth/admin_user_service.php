@@ -11,7 +11,7 @@ class Admin_user_service {
 	public function __construct() {
 		$this->CI = &get_instance();
 		$this->CI->load->model('auth/admin_user_model');
-		$this->CI->load->helper('qizhuan_helper');
+		$this->CI->load->helper('mp_helper');
 		$this->CI->load->helper('cookie_helper');
 	}
 	

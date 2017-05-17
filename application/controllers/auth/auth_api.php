@@ -10,7 +10,7 @@ class Auth_api extends CI_Controller {
 		$this->load->library('service/auth/role_service');
 		$this->load->library('service/auth/node_service');
 		$this->load->library('auth_filter');
-		$this->load->helper('qizhuan_helper');
+		$this->load->helper('mp_helper');
 	}
 	
 	public function user() {

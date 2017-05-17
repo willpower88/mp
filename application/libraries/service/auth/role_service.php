@@ -11,7 +11,7 @@ class Role_service {
 	public function __construct() {
 		$this->CI = &get_instance();
 		$this->CI->load->model('auth/role_model');
-		$this->CI->load->helper('qizhuan_helper');
+		$this->CI->load->helper('mp_helper');
 		$this->CI->load->library('log_service');
 	}
 	

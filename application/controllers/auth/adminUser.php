@@ -9,7 +9,7 @@ class AdminUser extends CI_Controller {
 		$this->load->library ( 'service/auth/role_service' );
 		$this->load->library ( 'service/auth/node_service' );
 		$this->load->library ( 'auth_filter' );
-		$this->load->helper ( 'qizhuan_helper' );
+		$this->load->helper ( 'mp_helper' );
         $this->load->library('pagination');
         $this->auth_filter->check_auth ();
 	}
@@ -32,7 +32,7 @@ class AdminUser extends CI_Controller {
 	}
 
 	public function adminUsers() {
-	    $config['base_url'] = 'http://qizhuan.powersoft.com/auth/adminUser/adminUsers';
+	    $config['base_url'] = 'http://mp.powersoft.com/auth/adminUser/adminUsers';
 	    $config['total_rows'] = 200;
 	    $config['per_page'] = 3;
 	    $this->pagination->initialize($config);

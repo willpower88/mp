@@ -138,7 +138,7 @@
         <script type="text/javascript">
 			$(document).ready(function(){
 				$.ajax({
-					url: "http://qizhuan.powersoft.com/auth/manage/role",
+					url: "http://mp.powersoft.com/auth/manage/role",
 					type: 'GET',
 					datatype: 'json',
 					async: false,

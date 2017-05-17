@@ -6,7 +6,7 @@ class Menu_model extends CI_Model{
 	}
 	
 	public function get_menus() {
-		$query = $this->db->get('qizhuan_menu');
+		$query = $this->db->get('mp_menu');
 		return $query->row_array();
 	}
 }

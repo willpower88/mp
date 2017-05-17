@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css"/>
     <link rel="stylesheet" href="/static/bootstrapValidator/css/bootstrapValidator.css" />
     <link rel="stylesheet" href="/static/jquery/jquery.pagination.css" />
-    <link rel="stylesheet" href="/static/qizhuan-css/manage.css" />
+    <link rel="stylesheet" href="/static/mp-css/manage.css" />
 
     <script type="text/javascript" src="/static/jquery/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="/static/bootstrap/js/bootstrap.min.js"></script>
@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="/static/bootstrap-table/bootstrap-table.css" />
     <script type="text/javascript" src="/static/bootstrap-table/locale/bootstrap-table-zh-CN.js"></script>
     <!--自定义-->
-    <script type="text/javascript" src="/static/qizhuan-js/manager.js"></script>
-    <script type="text/javascript" src="/static/qizhuan-js/util.js"></script>
+    <script type="text/javascript" src="/static/mp-js/manager.js"></script>
+    <script type="text/javascript" src="/static/mp-js/util.js"></script>
 
 </head>
 <body>

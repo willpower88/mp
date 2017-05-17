@@ -7,7 +7,7 @@ class login extends CI_Controller {
 		parent::__construct();
 		$this->load->library('service/auth/admin_user_service');
 		$this->load->library('auth_filter');
-		$this->load->helper('qizhuan_helper');
+		$this->load->helper('mp_helper');
 	}
 	
 	public function index(){

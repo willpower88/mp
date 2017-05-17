@@ -6,7 +6,7 @@ class Node_model extends CI_Model{
 	}
 	
 	public function get_nodes() {
-		$query = $this->db->get('qizhuan_node');
+		$query = $this->db->get('mp_node');
 		return $query->row_array();
 	}
 }
